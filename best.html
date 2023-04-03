@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bestseller</title>
+    <link rel="stylesheet" href="best.css">
+</head>
+<body>
+    <!-- navbar section -->
+    <nav>
+      <a href="index.html">
+        <img id="logo" src="https://i.ibb.co/VDXxrw5/Green-Minimalist-Nature-Gym-Logo.png" alt="logo">
+      </a>
+      <ul id="main">  
+        <li class="dropdown">
+          <a href="best.html">BRANDS</a>
+          <div class="dropdown-content">
+            <div class="column">
+              <h3>Topwear</h3>
+              <a href="#"> Muscleblaze </a>
+              <a href="#"> MB Fuel One</a>
+              <a href="#"> bGREEN</a>
+              <a href="#"> Optimum Nutrition</a>
+              <a href="#"> Ultimate Nutrition</a>
+              <a href="#"> MuscleTech</a>
+              <a href="#"> MyProtein</a>
+              <a href="#"> Isopure</a>
+              <a href="#"> Dymatize</a>
+              <a href="#"> GNC</a>
+              <a href="#"> Labrada</a>
+              <a href="#"> MusclePharma</a>
+            </div>
+            <div class="column">
+              <h3>BottomWear</h3>
+              <a href="#">HealthKart HK Vitals</a>
+              <a href="#">TrueBasics</a>
+              <a href="#">GNC</a>
+              <a href="#">Wow Life Science </a>
+              <a href="#">Now</a>
+              <a href="#">Healthvit</a>
+              <a href="#">INLIFE</a>
+              <a href="#">Nature Velvet</a>
+              <a href="#">Swisse</a>
+              <a href="#">Nutra Fisrt</a>
+              <a href="#">Boldfit</a>
+              <a href="#">Plix Olena</a>
+            </div>
+            <div class="column">
+              <h3>Footwear</h3>
+              <a href="#">Alpino</a>
+              <a href="#">Yoga Bar</a>
+              <a href="#">Rite Bite</a>
+              <a href="#">Amway</a>
+            </div>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="best.html">BESTSELLERS</a>
+          <div class="dropdown-content">
+            <div class="column">
+              <h3>Topwear</h3>
+              <a href="#"> Protein Powder</a>
+              <a href="#"> Whey Protein</a>
+              <a href="#"> Whey Protein Isolate</a>
+              <a href="#"> Mass Gainer</a>
+              <a href="#"> BCAA</a>
+              <a href="#"> Fat Burner</a>
+              <a href="#"> Pre Workout</a>
+              <a href="#"> Creatine</a>
+              <a href="#"> Protine Bars</a>
+              <a href="#"> Weight Gainers</a>
+              <a href="#"> Carbs Blend</a>
+              <a href="#"> Casein Protien</a>
+            </div>
+            <div class="column">
+              <h3>BottomWear</h3>
+              <a href="#">Multivitamins</a>
+              <a href="#">Omega 3</a>
+              <a href="#">Ayurveda & Herbs</a>
+              <a href="#">Fish Oil</a>
+              <a href="#">Biotin</a>
+              <a href="#">Apple Cider Vineger</a>
+              <a href="#">Protien Shake</a>
+              <a href="#">Kids Protien</a>
+              <a href="#">Peanut Butter</a>
+            </div>
+            <div class="column">
+              <h3>Footwear</h3>
+              <a href="#">Dumbells</a>
+              <a href="#">Gym Shakers</a>
+              <a href="#">Yoga Mat</a>
+              <a href="#">Hand Grip</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <form id="search">
+        <input type="text" placeholder="Search by product,category or collection">
+        <!-- <input type="submit" value="Go"> -->
+      </form>
+      <ul id="login">
+        <li><a href="user-login.html">LOGIN</a></li>
+      </ul>
+  
+      <img id="bag1" src="https://img.icons8.com/ios-glyphs/512/hearts.png" alt="logo">
+  
+        <a href="cart.html">
+          <img id="bag2" src="https://img.icons8.com/pastel-glyph/512/shopping-bag--v3.png" alt="logo">
+        </a>
+      
+  
+      <img id="bag3" src="https://img.icons8.com/color/512/india-circular.png" alt="logo">
+  
+    </nav>
+    <nav id="nav2">
+    <ul id="main">
+      <li id="text" class="tex"><a href="#">DEALS </a></li>
+      <li class="tex" ><a href="mens.html">BLOG </a></li>
+      <li class="tex" ><a href="women.html">CARDS </a></li>
+      <li class="tex"><a href="#woment">SUPPORT </a></li>
+      <li class="tex"><a href="#woment">STORES </a></li>
+    </ul>
+  </nav>
+    <!-- header section -->
+    <div id="header">
+        <div><a href="index.html">Home</a> <span>/ Bestseller</span></div>
+        <div>
+            
+                <h1>Bestseller <span id="total-items">(0)</span></h1> 
+                <div></div>
+            
+        </div>
+    </div>
+
+    <!-- products display section -->
+    <div id="main-container">
+        <!-- div containing filter categories -->
+        <div id="filter-container">
+            <div><span>FILTERS</span></div>
+            <div><span>Brand</span>
+                <div class = "filter">
+                    <input type="checkbox" name = "Muscleblaze">
+                    <label for="Muscleblaze">Muscleblaze</label>         
+                </div>
+                <div class = "filter">
+                    <input type="checkbox" name = "Optimum Nutition">
+                    <label for="Optimum Nutition">Optimum Nutrition</label>         
+                </div>
+                <div class = "filter">
+                    <input type="checkbox" name = "Bigmuscle">
+                    <label for="Bigmuscle">Bigmuscle</label>         
+                </div>
+                <div class = "filter">
+                    <input type="checkbox" name= "Labrada">
+                    <label for="Labrada">Labrada</label>         
+                </div>
+                <div class = "filter">
+                  <input type="checkbox" name= "GNC">
+                  <label for="GNC">GNC</label>         
+              </div>
+              <div class = "filter">
+                <input type="checkbox" name= "muscletech">
+                <label for="muscletech">MuscleTech</label>         
+            </div>
+
+            </div>
+            <div><span>Color</span></div>
+            <div><span>Design</span></div>
+            <div><span>Sleeve</span></div>
+            <div><span>Type</span></div>
+            <div><span>Ratings</span></div>    
+        </div>
+
+        <!-- div containing sort by and products div -->
+        <div id="content">
+
+            <!-- div containing sortby select tag -->
+            <div id="sortby">
+                <span>SORT BY</span>
+                <select name="" id="sort">
+                    <option id = "defaultSort"value="">Select</option>
+                    <option value="low">Price: Low to High</option>
+                    <option value="high">Price: High to Low</option>
+                </select>
+            </div>
+
+            <!-- div where product cards need to be appended-->
+            <div id="products-container">
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+<script src="best.js"></script>
+</html>
