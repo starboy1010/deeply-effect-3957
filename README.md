@@ -6,3 +6,5 @@ This project includes the following features:
 2. Product catalog with search and filtering capabilities.
 3. Shopping cart and checkout functionality.
 4. Blog with articles on health and wellness topics.
+## Home Page
+![alt text](https://i.ibb.co/YRZps5Z/home.png)
